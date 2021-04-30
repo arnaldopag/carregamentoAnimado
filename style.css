@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    border: 5px solid rgb(58, 0, 0);
+    border-radius: 10px;
+    width: 500px;
+}
+
+div {
+    width: 500px;
+    height: 50px;
+}
