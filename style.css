@@ -15,3 +15,28 @@ div {
     width: 500px;
     height: 50px;
 }
+#barra {
+    animation-name: 'carregar';
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+@keyframes carregar{
+    0% {
+        width:0px;
+        background-color: red;
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        width: 500px;
+        background-color: green;
+    }
+}
